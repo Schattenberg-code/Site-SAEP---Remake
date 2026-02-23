@@ -33,6 +33,23 @@ body{
 ======================
 */
 #cabecalho{
-
+background-color: rgb(204, 203, 203);
 }
-
+#linha_amarela{
+    background-color: rgb(245, 245, 103);
+    height: 15px;
+}
+#nav_cima{
+    display: flex;
+    gap: 5px;
+}
+button img{
+    height: 20px;
+    width: 20px;
+}
+button{
+    height: 27px;
+}
+#Redo{
+    transform: scaleX(-1);
+}
