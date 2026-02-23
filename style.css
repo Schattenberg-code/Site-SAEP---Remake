@@ -93,6 +93,7 @@
 */
 #cabecalho{
 background-color: rgb(204, 203, 203);
+margin: 0px;
 }
 #linha_amarela{
     background-color: rgb(245, 245, 103);
@@ -101,6 +102,11 @@ background-color: rgb(204, 203, 203);
 #nav_cima{
     display: flex;
     gap: 5px;
+    background-color: rgb(204, 203, 203);
+    border: 2px;
+    height: 40px;
+    align-items: center;
+    padding-left: 5px;
 }
 button img{
     height: 20px;
@@ -111,4 +117,16 @@ button{
 }
 #Redo{
     transform: scaleX(-1);
+}
+#Calendario_2{
+    transform: rotate(-90deg)
+}
+#Calendario_3{
+    transform: scale(-1);
+}
+#Repositories{
+    display: flex;
+    max-width: 20%;
+    justify-content: space-between;
+    align-items: center;
 }
