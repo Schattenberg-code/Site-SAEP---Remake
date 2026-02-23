@@ -13,29 +13,54 @@
 */
 
 #secaoum{
-        display: flex;
-        gap: 30px;
+    display: flex;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
+#textoum{
+    color: rgb(0, 67, 167);
+    font-size: 20px;
+    margin-left: 0px;
+    margin-right: 0px;
+}
+
+#Robologo{
+    margin-top: 17px;
+    margin-left: 0px;
+    margin-right: 0px;
+    width: 310px;
+    height: 310px;
 }
 
 #infoum{
-    padding: 30px;
     display: flex;
-    background-color: rgb(120, 194, 255);
+    align-items: center;
+    background-color: rgb(185, 220, 248);
     border: 0px;
     border-radius: 15px;
+    font-size: 12px;
+    flex: 1.7;
+    justify-content: space-between;
 }
 
 #listaum{
-    
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
 }
 
 .tabela{
     color: white;
-    background-color: rgb(9, 73, 146);
+    background-color: rgb(0, 67, 167);
     border: 0px;
     border-radius: 15px;
-    margin: 10px;
-    padding: 10px;
+    margin: 10px 10px;
+    padding: 5px;
+    padding-left: 30px;
+    padding-right: 30px;
+    line-height: 1.5;
+    text-align: center;
 }
 
 
@@ -46,41 +71,48 @@
 */
 
 #infodois{
-    padding: 30px;
-    background-color: rgb(120, 194, 255);
+    background-color: rgb(185, 220, 248);
     border: 0px;
     border-radius: 15px;
+    flex: 1;
 }
 
 #navsec1{
     display: flex;
     gap: 20px;
+    justify-content: space-between;
+    margin: 0 10px;
+    padding-right: 10px;
 }
 
 #listadois{
-    margin: 30px;
     justify-content: space-between;
+    margin: 3;
+    padding: 0;
+    list-style: none;
 }
 
 #navsec2{
     display: flex;
     justify-content: space-between;
-    align-items: 30px;
-    max-width: 350px;
+    margin: 0 15px;
+    padding: 0px;
 }
 
 .tabeladois{
-    background-color: rgb(9, 73, 146);
+    background-color: rgb(255, 255, 255);
     border: 0px;
-    padding: 5px;
+    padding: 1px;
     border-radius: 15px;
-    color: white;
+    color: rgb(0, 0, 0);
     display: flex;
     justify-content: space-between;
     text-align: center;
     align-items: center;
-    margin: 5px;
     gap: 30px;
+    margin: 6px;
+    font-weight: bold;
+    padding: 0 6px;
 }
 
 
