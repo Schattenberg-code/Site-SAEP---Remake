@@ -18,3 +18,11 @@ body{
 #listaum{
     
 }
+.tabela{
+    color: white;
+    background-color: rgb(9, 73, 146);
+    border: 0px;
+    border-radius: 15px;
+    margin: 10px;
+    padding: 10px;
+}
