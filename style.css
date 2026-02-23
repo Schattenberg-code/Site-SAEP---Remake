@@ -50,7 +50,6 @@
     background-color: rgb(120, 194, 255);
     border: 0px;
     border-radius: 15px;
-
 }
 
 #navsec1{
@@ -58,22 +57,31 @@
     gap: 20px;
 }
 
+#listadois{
+    margin: 30px;
+    justify-content: space-between;
+}
+
 #navsec2{
     display: flex;
-    gap: 30px;
+    justify-content: space-between;
+    align-items: 30px;
+    max-width: 350px;
 }
 
 .tabeladois{
-    color: white;
     background-color: rgb(9, 73, 146);
     border: 0px;
+    padding: 5px;
     border-radius: 15px;
-    margin: 10px;
-    padding: 10px;
+    color: white;
     display: flex;
+    justify-content: space-between;
+    text-align: center;
+    align-items: center;
+    margin: 5px;
     gap: 30px;
 }
-
 
 
 
