@@ -126,7 +126,12 @@ button{
 }
 #Repositories{
     display: flex;
-    max-width: 20%;
+    max-width: 350px;
     justify-content: space-between;
     align-items: center;
+    padding-left: 30px;
+}
+#Repositories img{
+    height: 15px;
+    width: 15px;
 }
