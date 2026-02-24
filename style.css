@@ -246,6 +246,8 @@
     margin: 10 0;
     padding: 17px;
     height: 100%;
+    height: auto;
+    display: block;
 }
 
 #partecima{
@@ -315,6 +317,7 @@
     margin: 10 0;
     align-items: center;
     border-radius: 15px;
+    max-height: 110px;
 }
 
 .textopedido{
@@ -323,7 +326,9 @@
 }
 
 .img_captura{
-    max-width: 1000px;
+    max-width: 100%;
+    height: auto;
+    display: block;
 }
 
 /*
@@ -340,21 +345,22 @@
     margin: 10 0;
     padding: 17px;
     height: 100%;
-    padding-bottom: 220px;
+    height: auto;
+    display: block;
 }
 
 #produtos2{
     display: flex;
     gap: 10px;
     flex-wrap: wrap;
+    align-items: center;
 }
 
 #pedidosloucos{
     display: flex;
-    flex-wrap: wrap;
     justify-content: center;
-    align-items: center;
     gap: 10px;
+    align-items: center;
 }
 
 
@@ -366,8 +372,8 @@
 ======================   
 */
 #cabecalho{
-background-color: rgb(204, 203, 203);
-margin: 0px;
+    background-color: rgb(204, 203, 203);
+    margin: 0px;
 }
 #linha_amarela{
     background-color: rgb(245, 245, 103);
