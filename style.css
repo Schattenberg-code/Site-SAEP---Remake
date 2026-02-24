@@ -8,7 +8,7 @@
 
 /*
 ================================
-        SEÇÃO UM 1/3 
+        SEÇÃO UM 1/2 
 ==============================
 */
 
@@ -66,7 +66,7 @@
 
 /*
 ================================
-        SEÇÃO DOIS 2/3 
+        SEÇÃO DOIS 1/2 
 ===============================
 */
 
@@ -114,6 +114,115 @@
     font-weight: bold;
     padding: 0 6px;
 }
+
+/*
+================================
+        SEÇÃO tres 1/2 
+===============================
+*/
+
+#secaodois{
+    display: flex;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
+#infotres{
+    background-color: rgb(185, 220, 248);
+    border: 0px;
+    border-radius: 15px;
+    padding: 30px;
+    margin: 10 0;
+    flex: 1.7;
+    justify-content: space-between;
+}
+
+#produtos{
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+
+#textocompras{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.fotosprodutos{
+    background-color: white;
+    width: 100px;
+    border: 0px;
+    border-radius: 15px;
+    padding: 30px;
+    text-align: initial;
+    padding-bottom: 0px;
+}
+
+.fotoproduto{
+    height: 100px;
+    width: 100px;
+}
+
+.divcommais{
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+.mais{
+    background-color: white;
+    padding: 10px;
+    width:12px ;
+    height:12px ;
+    border-radius: 150px;
+}
+
+#linhaabaixo{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+.img_setasd{
+    height: 18px;
+    width: 18px;
+}
+
+.img_setase{
+    height: 18px;
+    width: 18px;
+    transform: scaleX(-1);
+}
+
+/*
+================================
+        SEÇÃO quatro 2/2 
+===============================
+*/
+
+#infoquatro{
+    background-color: rgb(185, 220, 248);
+    border: 0px;
+    border-radius: 15px;
+    flex: 1;
+    margin: 10 0;
+    padding: 17px;
+}
+
+#partecima{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
+
+
+
+
+
+
+
 
 
 
