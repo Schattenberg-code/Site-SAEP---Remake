@@ -392,5 +392,28 @@ button{
     position: fixed; right: 0; top: 270px;
 }
 #botoes2{
-    
+    display: flex;
+    position: fixed; top: 300px; right: 444px;
+    gap: 10px;
+}
+#botoes_direita{
+    position: fixed; right: 0px;
+}
+#Tabela_Baixo{
+    border: 1px solid black;
+   width: 405px;
+   position: fixed; right:0px; top: 340px;
+   width: 915px;
+}
+#Tabela_Baixo td{
+    border: 1px solid black;
+}
+#Tabela_Baixo td img{
+    height: 20px;
+}
+#Tabela_Baixo th{
+    background-color: rgb(204, 203, 203);
+    border: 1px solid black;
+    text-align: left;
+    padding: 2px;
 }
