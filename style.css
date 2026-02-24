@@ -24,6 +24,29 @@
     font-size: 20px;
     margin-left: 0px;
     margin-right: 0px;
+    h5{
+        background-color: rgb(0, 67, 167);
+        padding: 10px;
+        border-radius: 15px;
+        color: white;
+        max-width: 110px;
+        text-align: center;
+    }
+    .setas_acaos{
+        background-color: white;
+        border-radius: 10px;
+        transform: translateX(-5px);
+    }
+}
+
+.seta_acao{
+    height: 30px;
+    width: 30px;
+}
+
+#duplatextoseta{
+    display: flex;
+    align-items: center;
 }
 
 #Robologo{
@@ -43,6 +66,7 @@
     font-size: 12px;
     flex: 1.7;
     justify-content: space-between;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 #listaum{
@@ -321,7 +345,7 @@
 }
 
 .textopedido{
-    width: 70px;
+    max-width: 80px;
     margin: 18px;
 }
 
