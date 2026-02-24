@@ -438,3 +438,30 @@ button{
     text-align: left;
     padding: 2px;
 }
+#Overview{
+    padding-left: 450px;
+    position: fixed; top: 230px;
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+#Overview button{
+    border-radius: 50%;
+    border-color: black;
+    margin-top: 20px;
+    margin-right: 20px;
+}
+#Overview div img{
+    height: 15px;
+    width: 15px;
+    position: fixed; right: 10px; top: 250px;
+}
+#linha_azul2{
+    height: 4px;
+    width: 912px;
+    background-color: rgb(67, 67, 255);
+    position: fixed; right: 0; top: 270px;
+}
+#botoes2{
+    
+}
