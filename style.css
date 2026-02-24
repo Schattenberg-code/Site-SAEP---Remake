@@ -4,6 +4,7 @@
 
 #index{
     background-color: white;
+    font-family: sogo;
 }
 
 /*
@@ -36,7 +37,7 @@
 #infoum{
     display: flex;
     align-items: center;
-    background-color: rgb(185, 220, 248);
+    background-color: rgb(201, 226, 247);
     border: 0px;
     border-radius: 15px;
     font-size: 12px;
@@ -71,32 +72,37 @@
 */
 
 #infodois{
-    background-color: rgb(185, 220, 248);
+    background-color: rgb(201, 226, 247);
     border: 0px;
     border-radius: 15px;
     flex: 1;
+    height: 100%;
 }
 
 #navsec1{
     display: flex;
     gap: 20px;
     justify-content: space-between;
-    margin: 0 10px;
+    margin: 0 25px;
     padding-right: 10px;
+    margin-right: 15px;
+    color: rgb(0, 67, 167);
 }
 
 #listadois{
     justify-content: space-between;
-    margin: 3;
     padding: 0;
     list-style: none;
+    margin: 0 25px;
+    padding-bottom: 5px;
 }
 
 #navsec2{
     display: flex;
     justify-content: space-between;
-    margin: 0 15px;
+    margin: 0 40px;
     padding: 0px;
+    color: rgb(0, 67, 167);
 }
 
 .tabeladois{
@@ -115,6 +121,35 @@
     padding: 0 6px;
 }
 
+.processo1{
+    background-color: greenyellow;
+    border-radius: 7px;
+    margin: 6px;
+    p {
+        margin: 5px;
+    }
+}
+
+.processo2{
+    background-color: rgb(253, 214, 39);
+    border-radius: 7px;
+    margin: 6px;
+    p {
+        margin: 5px;
+    }
+}
+
+.processo3{
+    background-color: rgb(255, 78, 47);
+    border-radius: 7px;
+    margin: 6px;
+    p {
+        margin: 5px;
+    }
+}
+
+
+
 /*
 ================================
         SEÇÃO tres 1/2 
@@ -128,10 +163,11 @@
 }
 
 #infotres{
-    background-color: rgb(185, 220, 248);
+    background-color: rgb(201, 226, 247);
     border: 0px;
     border-radius: 15px;
     padding: 30px;
+    padding-top: 20px;
     margin: 10 0;
     flex: 1.7;
     justify-content: space-between;
@@ -147,6 +183,8 @@
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
+    margin-top: 0px;
+    color: rgb(0, 67, 167);
 }
 
 .fotosprodutos{
@@ -201,28 +239,52 @@
 */
 
 #infoquatro{
-    background-color: rgb(185, 220, 248);
+    background-color: rgb(201, 226, 247);
     border: 0px;
     border-radius: 15px;
     flex: 1;
     margin: 10 0;
     padding: 17px;
+    height: 100%;
 }
 
 #partecima{
+    color: rgb(0, 67, 167);
     display: flex;
     justify-content: space-between;
+    margin: 0 12;
 }
 
+#usuario{
+    background-color: white;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin: 10px;
+    border-radius: 15px;
+}
 
+.img_usuario{
+    height: 50px;
+    width: 50px;
+    border-radius: 100px;
+    padding-left: 10px;
+}
 
+#usuario h3{
+    margin: 10 0;
+}
 
+#usuario p{
+    margin: 10 0;
+}
 
-
-
-
-
-
+.dividirdata{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding-right: 10px;
+}
 
 
 
