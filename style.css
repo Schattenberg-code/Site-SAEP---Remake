@@ -246,6 +246,8 @@
     margin: 10 0;
     padding: 17px;
     height: 100%;
+    height: auto;
+    display: block;
 }
 
 #partecima{
@@ -286,6 +288,81 @@
     padding-right: 10px;
 }
 
+/*
+================================
+        SEÇÃO cinco 1/2 
+===============================
+*/
+#secaotres{
+    display: flex;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
+
+#infocinco{
+    background-color: rgb(201, 226, 247);
+    border: 0px;
+    border-radius: 15px;
+    padding: 30px;
+    padding-top: 20px;
+    margin: 10 0;
+    flex: 1.7;
+    justify-content: space-between;
+}
+
+.partedoidera{
+    background-color: white;
+    display: flex;
+    margin: 10 0;
+    align-items: center;
+    border-radius: 15px;
+    max-height: 110px;
+}
+
+.textopedido{
+    width: 70px;
+    margin: 18px;
+}
+
+.img_captura{
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+
+/*
+================================
+        SEÇÃO cinco 1/2 
+===============================
+*/
+
+#infoseis{
+    background-color: rgb(201, 226, 247);
+    border: 0px;
+    border-radius: 15px;
+    flex: 1;
+    margin: 10 0;
+    padding: 17px;
+    height: 100%;
+    height: auto;
+    display: block;
+}
+
+#produtos2{
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+#pedidosloucos{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    align-items: center;
+}
+
 
 
 
@@ -295,8 +372,8 @@
 ======================   
 */
 #cabecalho{
-background-color: rgb(204, 203, 203);
-margin: 0px;
+    background-color: rgb(204, 203, 203);
+    margin: 0px;
 }
 #linha_amarela{
     background-color: rgb(245, 245, 103);
