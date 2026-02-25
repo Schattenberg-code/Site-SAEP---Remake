@@ -470,7 +470,7 @@ button{
 }
 #Overview{
     padding-left: 450px;
-    position: fixed; top: 230px;
+    position: fixed; top: 190px;
     display: flex;
     justify-content: space-between;
     gap: 20px;
@@ -484,17 +484,17 @@ button{
 #Overview div img{
     height: 15px;
     width: 15px;
-    position: fixed; right: 10px; top: 250px;
+    position: fixed; right: 10px; top: 220px;
 }
 #linha_azul2{
     height: 4px;
-    width: 912px;
+    width: 1452px;
     background-color: rgb(67, 67, 255);
-    position: fixed; right: 0; top: 270px;
+    position: fixed; right: 0; top: 250px;
 }
 #botoes2{
     display: flex;
-    position: fixed; top: 300px; right: 444px;
+    position: fixed; top: 270px; right: 983px;
     gap: 10px;
 }
 #botoes_direita{
@@ -502,9 +502,8 @@ button{
 }
 #Tabela_Baixo{
     border: 1px solid black;
-   width: 405px;
-   position: fixed; right:0px; top: 340px;
-   width: 915px;
+   width: 1455px;
+   position: fixed; right:0px; top: 310px;
 }
 #Tabela_Baixo td{
     border: 1px solid black;
@@ -517,4 +516,21 @@ button{
     border: 1px solid black;
     text-align: left;
     padding: 2px;
+}
+#Barra_Rolamento img{
+    height: 200px;
+    position: fixed; right: 0px; top: 440px;
+    width: 1455px;
+}
+#Attributes{
+    position: fixed; left: 466px;
+}
+#Attributes button{
+    position: fixed; right: 5px; bottom: 360px;
+}
+#linha_azul3{
+    height: 4px;
+    width: 1452px;
+    background-color: rgb(67, 67, 255);
+    position: fixed; right: 0; top: 580px;
 }
